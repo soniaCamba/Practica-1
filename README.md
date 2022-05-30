@@ -51,10 +51,13 @@ graph LR;
 
 El tiempo libre del procesador es el tiempo en el que el procesador no está ejecutando ninguna operación. En cambio nuestro programa esta ejecutando el bucle todo el rato, con esto podemos afirmar que durante todo el tiempo esta ocupado.
 
+
+
 # Practica 1 extra
 
 ## CODIGO DEL PROGRAMA:
 
+```
 #include <Arduino.h>
 
 // definimos el pin donde conectaremos el led
@@ -98,6 +101,7 @@ void intermitente(){
     var++; 
   }
 }
+```
 
 ## DESCRIPCIÓN 
 En esta extensión de la practca he intentado simular un semáforo. 
